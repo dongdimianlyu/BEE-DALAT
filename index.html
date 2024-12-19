@@ -6,28 +6,40 @@
     <title>BEE-DALAT Business Club</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Light blue background */
+            background-color: #e6f3ff; /* Light blue background */
+            color: #333;
         }
         header {
-            background-color: #ff6f61; /* Soft pink */
+            background-color: #0077b6; /* Deep sky blue */
             color: white;
             padding: 2em 1em;
             text-align: center;
         }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
         nav {
-            background-color: #ffa07a; /* Light salmon */
+            background-color: #00a8e8; /* Blue accent */
             padding: 10px;
+            text-align: center;
         }
         nav a {
-            color: #1e90ff; /* Dodger blue */
+            color: white;
             text-decoration: none;
             margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
         nav a:hover {
-            color: #00b7eb; /* Sky blue */
+            background-color: #0096c7;
         }
         .container {
             padding: 20px;
@@ -42,10 +54,15 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         h2 {
-            color: #ff6f61;
+            color: #0077b6;
+            border-bottom: 2px solid #00a8e8;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
         }
         .btn {
-            background-color: #1e90ff;
+            background-color: #0077b6;
             color: white;
             padding: 10px 20px;
             text-align: center;
@@ -58,12 +75,12 @@
             transition: background-color 0.3s ease;
         }
         .btn:hover {
-            background-color: #00b7eb;
+            background-color: #0096c7;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #ff6f61;
+            background-color: #0077b6;
             color: white;
             margin-top: 20px;
         }
@@ -72,7 +89,7 @@
 <body>
     <header>
         <h1>BEE-DALAT Business Club</h1>
-        <p>Empowering Future Entrepreneurs with Biblical Values</p>
+        <p>Empowering Future Entrepreneurs with Biblical Values at Dalat International School</p>
     </header>
     <nav>
         <a href="#home">Home</a>
@@ -83,24 +100,31 @@
     <div class="container">
         <section class="section" id="home">
             <h2>Welcome to BEE-DALAT</h2>
-            <p>At Dalat International School, we're fostering the next generation of business leaders!</p>
+            <p>Welcome to the BEE-DALAT Business Club, where we inspire and equip high school students at Dalat International School to become future leaders in business. Here, we blend entrepreneurship with Christian values, fostering an environment where students can learn, grow, and give back.</p>
         </section>
         <section class="section" id="about">
             <h2>About Us</h2>
-            <p>BEE-DALAT is a club exclusively for high school students at Dalat International School, dedicated to learning business with a heart for service.</p>
+            <p>BEE-DALAT stands for Business Education and Entrepreneurship at Dalat, a club exclusively for the students of Dalat International School. Our club is a place where young minds come together to explore the world of business from both a practical and ethical perspective. We offer workshops, mentorship programs, and opportunities to start small ventures under guidance.</p>
         </section>
         <section class="section" id="mission">
             <h2>Our Mission</h2>
-            <p>Our goal is to mentor young entrepreneurs, emphasizing Biblical integration in business practices, such as using profits to give back and help those in need.</p>
+            <p>Our mission at BEE-DALAT is twofold: 
+
+            <ul>
+                <li>To mentor and prepare high school students for real-world business challenges by providing them with the tools, knowledge, and support needed to start their own ventures.</li>
+                <li>To integrate Biblical principles into business education, encouraging a model of entrepreneurship that prioritizes giving back to the community and using business as a means to help the less fortunate.</li>
+            </ul>
+
+            We believe that true success in business involves not just financial gain but also making a positive impact on others' lives.</p>
         </section>
         <section class="section" id="join">
             <h2>Join Us</h2>
-            <p>Interested in starting your own venture with a purpose? Join BEE-DALAT today!</p>
-            <a href="mailto:info@beedalat.com" class="btn">Contact Us</a>
+            <p>Are you passionate about business and looking to make a difference? Join BEE-DALAT today! Whether you're interested in learning about entrepreneurship, seeking mentorship, or eager to start your own project, we're here to support you on your journey. Let's work together to create businesses that not only succeed but also serve.</p>
+            <a href="mailto:info@beedalat.com" class="btn">Contact Us to Join</a>
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 BEE-DALAT Business Club - Dalat International School</p>
+        <p>© 2024 BEE-DALAT Business Club - Dalat International School</p>
     </footer>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
